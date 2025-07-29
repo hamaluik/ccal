@@ -1,0 +1,14 @@
+[package]
+name = "ccal"
+version = "0.1.0"
+edition = "2024"
+description = "A continuous calendar for the command line"
+authors = ["Kenton Hamaluik <kenton@hamaluik.ca>"]
+license = "Apache-2.0"
+
+[dependencies]
+ansi_term = "0.12.1"
+clap = { version = "4.5.41", features = ["derive", "cargo", "env", "unicode", "wrap_help"] }
+color-eyre = "0.6.5"
+jiff = "0.2.15"
+
